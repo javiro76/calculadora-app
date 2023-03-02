@@ -95,3 +95,16 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+ul {
+
+  list-style: none;
+
+}
+
+/*Regla para eliminar botones del input tipo numerico */
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
