@@ -108,3 +108,24 @@ input[type=number]::-webkit-inner-spin-button {
   margin: 0;
 }
 
+.botones {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  margin: 0 10px;
+}
+
+.ingreso-numeros {
+  display: flex;
+  justify-content: center;
+}
+
+.cajas-todas {
+height: 35px;
+width: 120px;
+margin: 0 10px;
+font-size:small;
+
+}
