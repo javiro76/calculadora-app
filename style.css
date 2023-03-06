@@ -115,6 +115,7 @@ input[type=number]::-webkit-inner-spin-button {
 
 button {
   margin: 0 10px;
+  
 }
 
 .ingreso-numeros {
@@ -128,4 +129,8 @@ width: 120px;
 margin: 0 10px;
 font-size:small;
 
+}
+
+.botones:hover {
+  transform: scale(1.10); /* Escala el botón al 110% cuando el usuario pasa el mouse sobre el botón */
 }
