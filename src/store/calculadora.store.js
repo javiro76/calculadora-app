@@ -32,6 +32,7 @@ const sumar = (num1,num2) => {
 
     if (!num1 || !num2 ) throw new Error ('Los dos números son requeridos')
 
+    
     return num1+num2
 
 };
