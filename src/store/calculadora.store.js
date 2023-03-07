@@ -4,9 +4,7 @@ const initStore = () => {
     console.log('InitStore 😁');
 };
 
-export default {
-    initStore,
-};
+
 
 /**Funcion que realiza operacion de multiplicación
  * 
@@ -46,6 +44,14 @@ const restar = (num1,num2) => {
 
 };
 
+export default {
+    dividir,
+    initStore,
+    multiplicar,
+    restar,
+    sumar,
+
+}
 
 console.log(multiplicar(3,4)); 
 console.log(dividir(4,8));
