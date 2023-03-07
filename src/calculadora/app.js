@@ -2,7 +2,17 @@ import html from "./app.html?raw";
 import calculadoraStore from '../store/calculadora.store';
 import { limpiarInput } from "./uses-cases/limpiar-input";
 
-let element;
+
+const ElementIDs = {
+    BtnBorrar: '#btn-borrar',
+    Num1:'#num1',
+    Num2:'#num2',
+    Resultado: '#resultado',
+
+}
+
+
+
 export const App = ( elementId ) => {
 
     (()=> {
@@ -15,10 +25,10 @@ export const App = ( elementId ) => {
     
     // Referencias HTML
     
-    const clearButton = document.querySelector('#btn-borrar');
-    const num1 = document.querySelector('#num1');
-    const num2 = document.querySelector('#num2');
-    const resultado = document.querySelector('#resultado');
+    const clearButton = document.querySelector( ElementIDs.BtnBorrar );
+    const num1 = document.querySelector( ElementIDs.Num1 );
+    const num2 = document.querySelector( ElementIDs.Num2 );
+    const resultado = document.querySelector( ElementIDs.Resultado );
     
     
     // Listeners
