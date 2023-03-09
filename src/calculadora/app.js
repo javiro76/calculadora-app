@@ -1,6 +1,6 @@
 import html from "./app.html?raw";
 import calculadoraStore from '../store/calculadora.store';
-import { limpiarInput } from "./uses-cases/limpiar-input";
+
 
 
 const ElementIDs = {
