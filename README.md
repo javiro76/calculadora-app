@@ -1,12 +1,33 @@
-# calculadora-app
-# Se realiza proyecto de calculadora en javaScript
-# Proyecto realizado para practicar los conceptos básicos de javaScript 
-# puedes verlos en el siguiente enlace:
-# https://calculadora-app-javiro.netlify.app/
+# Calculadora-app
 
+Pasos para ejecutar el proyecto: 
 
-# Project done to practice the basic concepts of javaScript
-# you can see them in this link
-# https://calculadora-app-javiro.netlify.app/
+1. Clonar repositorio
+2. Ejecutar '''npm install''' para construir los modulos de node
+3. Correr el devServer  '''npm run dev''' 
+4. Abrir el proyecto en '''http://localhost:3000'''
 
+## Producción 
 
+1. Ejecutar ´´´ npm run build '''
+2. Tomar la carpeta '''dist''' y desplegarla 
+
+### Puedes ver el proyecto en el siguiente link:
+
+https://calculadora-app-javiro.netlify.app/
+
+Steps to execute the project: 
+
+1. Clone repository
+2. Execute '''npm install'''' to build the node modules.
+3. Run the devServer '''npm run dev''''. 
+4. Open the project in '''http://localhost:3000'''''
+
+## Production 
+
+1. Run '''npm run build ''''''
+2. Take the '''dist'''' folder and deploy it. 
+
+### You can see the project in the following link:
+
+https://calculadora-app-javiro.netlify.app/
